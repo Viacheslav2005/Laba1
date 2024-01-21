@@ -1,30 +1,63 @@
-* {
-margin: 0;
-padding: 0;
+.submit{
+display: flex;
+justify-content: center;
 }
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 2% 6%;
-    background-color: rgb(237,242,245);
+
+.submit input{
+border-radius: 25px;
+padding: 5px 15px;
+background-color: black;;
+color: white;
 }
-span {
-    letter-spacing: 8px;
-    font-size: 35px;
+#EGE{
+display: flex;
+justify-content: space-around;
+
 }
-h1 p {
-    font-size: 20px;
+#timers{
+width: 20%;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
-.navright{
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
+
+#form-php input{
+font-size: x-large;
+margin: 0%;
 }
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+#container-main-task{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0 auto;
+width: 70%;
+text-align: center;
 }
-section {
-    margin-left: 50px;
+
+#bilet{
+margin: 0% auto;
+}
+
+#VARS-BG{
+font-size: x-large;
+}
+
+#VARS-BG p{
+margin: 0%;
+}
+
+#timer-content{
+width: 65%;
+gap: 5%;
+display: flex;
+align-items: center;
+margin: 0 auto;
+justify-content: space-between;
+}
+
+#date-and-time{
+display: flex;
+gap: 20px;
+align-items: center;
 }
